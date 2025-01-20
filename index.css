@@ -5,11 +5,17 @@
 }
 
 #container{
+    /* display: flex;
+    flex-direction:row ;
+    gap: 10px; */
     align-content:center;
     width: 80%;
     margin: auto;
+   
 }
 body{
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: goldenrod;
     justify-content: center;
     text-align: center;
@@ -27,10 +33,10 @@ h2{
     color: white;
 }
 nav{
-
+    
 }
 ul{
-
+    list-style-type: none;
 }
 a{
 
@@ -43,5 +49,14 @@ main{
     background-color: white;
     width: 100%;
     text-align: center;
+     
+}
+article{
+    min-width: 60%;
+}
+. class img{
+    /* max-width: 100px; */
+    /* height: auto; */
+    
 
 }
