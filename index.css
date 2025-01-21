@@ -33,17 +33,24 @@ h2{
     color: white;
 }
 nav{
-    
-}
-ul{
-    list-style-type: none;
-}
-a{
-
-}
-li{
-
-}
+ border-bottom:2px dotted black;
+ text-align: center;
+  background-color:rgb(0 102 255);
+  height:40px;
+  }
+  nav li{
+    display: inline-block;
+    padding-right:10px;
+    padding-left:10px; 
+  }
+  nav a{
+    display: block;
+    font-size: 12px; 
+    color:white;
+    text-decoration: none;
+    padding:15px 15px;
+  }
+   
 main{
     display: flex;
     background-color: white;
@@ -52,11 +59,62 @@ main{
      
 }
 article{
-    min-width: 60%;
+    min-width:50px;
+    }
+
+ article h1{
+    color:goldenrod;
+    text-align: left;
+    padding:20px 0px 20px 10px;
+ }
+ article p{
+    width:60%;
+ }
+
+div{
+    width: 100px;
+   
 }
-. class img{
-    /* max-width: 100px; */
-    /* height: auto; */
-    
+.figure{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
 
 }
+.figure img{
+    width:60%;
+    /* height:auto; */
+
+}
+aside {
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+   
+}
+
+
+figure{
+
+}
+    padding: 10px 30px 10px 30px;
+    background-color:cornflowerblue;
+
+
+.asideheader {
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+
+    background-color: darkblue;
+}
+
+small {
+    color: white;
+}
+
+    
+
